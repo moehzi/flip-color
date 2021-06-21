@@ -8,6 +8,7 @@
 
 body {
 	font-family: 'Poppins';
+	overflow: hidden;
 }
 
 
@@ -39,4 +40,45 @@ nav {
 .right-item li a {
 	text-decoration: none;
 	color: black;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	height: 100%;
+}
+
+.container {
+	text-align: center;
+	background-color: black;
+	padding: 1rem 5rem;
+	border-radius: 10px;
+	width: auto;
+}
+
+.container h2 {
+	margin-bottom: 1rem;
+}
+
+button.btn {
+	margin: auto;
+	text-transform: uppercase;
+	font-family: 'Poppins';
+	padding: 0.25rem 1rem;
+	background-color: none;
+	border: 2px solid black;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+
+
+
+.container h2 {
+	color: white;
+}
+
+span.color {
+	color: aquamarine;
 }
