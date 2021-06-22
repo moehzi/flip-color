@@ -8,6 +8,7 @@ btn.addEventListener("click", function () {
 	const randomNumber = getRandomNum();
 	console.log(randomNumber);
 	document.body.style.backgroundColor = colors[randomNumber];
+	color.textContent = colors[randomNumber];
 });
 //fungsi random number
 function getRandomNum(){
